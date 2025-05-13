@@ -491,7 +491,7 @@ const StyledWrapper = styled.div`
     align-items: center;
     width: 100%;
     height: 600px;
-    margin-top: -170%;
+    margin-top: -130%;
   }
 }
   `;
