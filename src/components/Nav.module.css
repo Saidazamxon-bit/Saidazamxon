@@ -1,0 +1,40 @@
+.navContainer {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #050529d7;
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  border-radius: 45px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  height: 45px;
+  position: fixed; /* Yopishgan holat */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari uchun */
+  background-color: rgba(119, 116, 116, 0.1); /* Shaffof oq */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Yengil chiziq */
+
+}
+
+.navItem {
+  background: none;
+  border: none;
+  color: rgb(97, 97, 97);
+  padding: 10px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background 0.4s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 3px;
+}
+
+.navItem:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.829);
+}
+

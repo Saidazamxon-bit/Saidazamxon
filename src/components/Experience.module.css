@@ -1,0 +1,20 @@
+.box1{
+    border: 2px red solid;
+    width: 85%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 200px;
+}
+
+.wrapper{
+    border: 2px #2C2C6C solid;
+    height: 83%;
+
+}
+
+.text1{
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+}

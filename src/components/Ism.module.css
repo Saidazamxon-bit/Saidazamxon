@@ -1,0 +1,30 @@
+.box{
+    /* border: 2px red solid; */
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+h3{
+    font-family: inherit;
+    font-weight: 700;
+}
+
+h1{
+    margin-top: -20px;
+    font-weight: 400;
+    font-family: fantasy;
+}
+
+h2{
+    font-size: 15px;
+    margin-top: -20px;
+    color: grey;
+}
+
+.mm{
+    width: 400px;
+    height: 800px;
+    border: 2px red solid;
+    color: chartreuse;
+}

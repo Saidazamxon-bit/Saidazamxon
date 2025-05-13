@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+
+}
+
+
+/* Light mode */
+.light {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+
+  background: #1f1f38;
+  background: var(--color-bg);
+  background-image: url(.//asserts/body.png);
+  color: #fff;
+  color: var(--color-white);
+  font-family: Poppins, sans-serif;
+  line-height: 1.7;
+  height: 3300px;
+
+  
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+
+  padding-top: 100px;
+
+  
+  top: 0; /* Devorning yuqori qismiga yopishish */
+  left: 0; /* Devorning chap qismiga yopishish */
+  right: 0; /* Devorning o'ng qismiga yopishish */
+}
+
+/* Dark mode */
+.dark {
+  
+  
+  background: #1f1f38;
+
+
+
+  background: #1f1f38;
+
+  background-image: url(.//asserts/body.png);
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  line-height: 1.7;
+
+  
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+  padding-top: 100px;
+  height: 3300px;
+
+
+  
+  top: 0; /* Devorning yuqori qismiga yopishish */
+  left: 0; /* Devorning chap qismiga yopishish */
+  right: 0; /* Devorning o'ng qismiga yopishish */
+
+}
+
+/* Body for dark mode */
+.dark-mode-body {
+  background-color: #0d0d0d; /* Dark background */
+  color: #fff; /* Light text color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
