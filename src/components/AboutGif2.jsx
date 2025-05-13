@@ -117,7 +117,7 @@ const StyledWrapper = styled.div`
     height: 96px;
     position: absolute;
     left: 70%;
-    top: 2000px;
+    top: 1400px;
     margin: -85px 0 0 -78px;
     perspective: 500px;
   }
@@ -557,7 +557,7 @@ const StyledWrapper = styled.div`
     height: 96px;
     position: absolute;
     left: 45%;
-    top: 2850px;
+    top: 2300px;
     
     perspective: 500px;
   }

@@ -7,7 +7,7 @@ import CvDowland from './components/CvDowland';
 import MeImg from './components/MeImg';
 import Nav from './components/Nav';
 import Tarmoqlar from './components/Tarmoqlar';
-import Asabniki from './components/Asabniki';
+// import Asabniki from './components/Asabniki';
 import About from './components/About';
 import About2 from './components/About2';
 import AboutGif from './components/AboutGif';
@@ -76,7 +76,7 @@ function App() {
         <CvDowland />
         <MeImg />
         <Tarmoqlar />
-        <Asabniki />
+        {/* <Asabniki /> */}
 
         
       </section>

@@ -1,7 +1,7 @@
 .box1{
     border: 2px red solid;
     width: 85%;
-    height: 500px;
+    height: 600px;
     /* background-color: aqua; */
     margin: auto;
     margin-top: 200px;
@@ -10,7 +10,14 @@
 .wrapper{
     border: 2px #2C2C6C solid;
     height: 83%;
-
+    width: 90%;
+    margin: auto;
+    border-radius: 40px;
+    background-color: #2C2C6C;
+}
+.wrapper:hover{
+    background: none;
+    transition: 500ms;
 }
 
 .text1{
@@ -18,3 +25,16 @@
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* Telefonlar uchun */
+@media (max-width: 767px) { 
+    .box1{
+        border: 2px red solid;
+        width: 85%;
+        height: 600px;
+        /* background-color: aqua; */
+        margin: auto;
+        margin-top: 60px;
+    }
+ }
