@@ -18,7 +18,7 @@ html, body {
   color: var(--color-white);
   font-family: Poppins, sans-serif;
   line-height: 1.7;
-  height: 3300px;
+  height: 2500px;
 
   
   color: #000;
@@ -53,7 +53,7 @@ html, body {
   transition: background-color 0.3s, color 0.3s;
   min-height: 100vh;
   padding-top: 100px;
-  height: 3300px;
+  height: 2500px;
 
 
   
@@ -71,3 +71,62 @@ html, body {
   min-height: 100vh;
 }
 
+@media (max-width: 767px) { 
+  .light {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+  
+    background: #1f1f38;
+    background: var(--color-bg);
+    background-image: url(.//asserts/body.png);
+    color: #fff;
+    color: var(--color-white);
+    font-family: Poppins, sans-serif;
+    line-height: 1.7;
+    height: 3600px;
+  
+    
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+  
+    padding-top: 100px;
+  
+    
+    top: 0; /* Devorning yuqori qismiga yopishish */
+    left: 0; /* Devorning chap qismiga yopishish */
+    right: 0; /* Devorning o'ng qismiga yopishish */
+  }
+  
+
+  .dark {
+  
+  
+    background: #1f1f38;
+  
+  
+  
+    background: #1f1f38;
+  
+    background-image: url(.//asserts/body.png);
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    line-height: 1.7;
+  
+    
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+    padding-top: 100px;
+    height: 3600px;
+  
+  
+    
+    top: 0; /* Devorning yuqori qismiga yopishish */
+    left: 0; /* Devorning chap qismiga yopishish */
+    right: 0; /* Devorning o'ng qismiga yopishish */
+  
+  }
+  
+
+}

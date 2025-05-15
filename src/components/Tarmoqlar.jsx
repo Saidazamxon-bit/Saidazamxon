@@ -109,7 +109,7 @@ const StyledWrapper = styled.div`
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 350px;
+    margin-top: -450px;
     position: absolute;
   }
   }
