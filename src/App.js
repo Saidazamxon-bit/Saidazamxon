@@ -12,7 +12,7 @@ import About from './components/About';
 import About2 from './components/About2';
 import AboutGif from './components/AboutGif';
 import AboutGif2 from './components/AboutGif2';
-import Experience from './components/Experience'
+import Experience from './components/Experience';
 
 
 
@@ -24,7 +24,7 @@ function App() {
     home: useRef(null),
     about: useRef(null),
     // Kelajakda qo‘shish uchun:
-    // skills: useRef(null),
+    Experience: useRef(null),
     // contact: useRef(null),
     
   };
@@ -87,12 +87,15 @@ function App() {
         <About2 />
         <AboutGif/>
         <AboutGif2/>
-        <Experience/>
+
         
       </section>
 
       {/* Kelajakda boshqa bo‘limlar uchun */}
-      {/* <section ref={sections.skills}>Skills...</section> */}
+      <section ref={sections.Experience}>
+        <Experience/>
+        
+      </section>
       {/* <section ref={sections.contact}>Contact...</section> */}
 
       {/* Navga scroll funksiyasini uzatamiz */}

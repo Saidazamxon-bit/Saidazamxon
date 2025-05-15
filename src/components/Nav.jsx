@@ -6,7 +6,7 @@ export default function Nav({ onNavigate }) {
   const navItems = [
     { id: "home", icon: <Home size={20} /> },
     { id: "about", icon: <User size={20} /> },
-    { id: "skills", icon: <Book size={20} /> },
+    { id: "Experience", icon: <Book size={20} /> },
     { id: "heart", icon: <Heart size={20} /> },
     { id: "contact", icon: <FileText size={20} /> },
   ];
