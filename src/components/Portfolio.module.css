@@ -1,0 +1,83 @@
+.box{
+    /* border: 2px red solid; */
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box h3{
+    color: grey;
+    font-size: 15px;
+}
+
+.box h1{
+    font-size: 25px;
+}
+
+.cardbox{
+    /* border: 2px aqua solid; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 10.5em;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    margin-left: 160px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+
+  .doctor{
+    width: 100%;
+  }
+
+
+  
+@media (max-width: 767px) { 
+ 
+  .box{
+    /* border: 2px red solid; */
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 850px;
+    margin-left: 10px;
+}
+.cardbox{
+  /* border: 2px aqua solid; */
+  width: 100%;
+  display: block;
+  flex-wrap: wrap;
+}
+}

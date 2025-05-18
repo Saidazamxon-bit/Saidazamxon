@@ -1,0 +1,48 @@
+.box{
+    /* border: 2px red solid; */
+    height: 500px;
+    width: 75%;
+    margin: auto;
+}
+
+.box h3{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+}
+
+.box h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrapper{
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) { 
+    .wrapper{
+        /* border: 2px red solid; */
+        width: 95%;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    .box{
+        /* border: 2px red solid; */
+        height: 500px;
+        width: 75%;
+        margin: auto;
+        margin-top: 550px;
+    }
+    
+    
+}
