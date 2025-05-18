@@ -1,0 +1,39 @@
+.box{
+    /* border: 2px red solid; */
+    margin-top: 50px;
+}
+.box h3{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+
+.box h1{
+    text-align: center;
+}
+
+.logo{
+    color: white;
+}
+
+@media (max-width: 767px) { 
+    .box{
+        /* border: 2px red solid; */
+        margin-top: 900px;
+        display: block;
+       
+    }
+}
+
+.wr{
+    /* border: 2px red solid; */
+    margin-top: -50px;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.d{
+    margin-top: -200px;
+}

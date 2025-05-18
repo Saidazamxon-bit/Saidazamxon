@@ -15,6 +15,8 @@ import AboutGif2 from './components/AboutGif2';
 import Experience from './components/Experience';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Tugash from './components/Tugash';
 
 
 
@@ -28,6 +30,7 @@ function App() {
     // Kelajakda qo‘shish uchun:
     Experience: useRef(null),
     Services: useRef(null),
+    Contact: useRef(null),
     
   };
 
@@ -101,6 +104,12 @@ function App() {
       <section ref={sections.Services}>
         <Services/>
         <Portfolio/>
+      </section>
+
+       
+      <section ref={sections.Contact}>
+        <Contact/>
+        <Tugash/>
       </section>
 
       {/* Navga scroll funksiyasini uzatamiz */}

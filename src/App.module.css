@@ -26,7 +26,7 @@ html, body {
   transition: background-color 0.3s, color 0.3s;
   min-height: 100vh;
   padding-top: 100px;
-  height: 3500px;
+  height: 100%;
 
 
   
@@ -49,7 +49,7 @@ html, body {
   color: var(--color-white);
   font-family: Poppins, sans-serif;
   line-height: 1.7;
-  height: 3500px;
+  height: 100%;
 
   
   color: #000;
@@ -93,7 +93,7 @@ html, body {
     transition: background-color 0.3s, color 0.3s;
     min-height: 100vh;
     padding-top: 100px;
-    height: 6500px;
+    height: 100%;
   
   
     
@@ -118,7 +118,7 @@ html, body {
     color: var(--color-white);
     font-family: Poppins, sans-serif;
     line-height: 1.7;
-    height: 6500px;
+    height: 100%;
   
     
     color: #000;
