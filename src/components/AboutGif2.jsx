@@ -15,7 +15,6 @@ const AboutGif2 = () => {
               </div>
               <span>MacBook Air</span>
             </div>
-            <title>Layer 1</title>
           </div>
           <div className="macbody">
             <div className="face-one">
